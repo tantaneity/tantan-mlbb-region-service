@@ -1,0 +1,17 @@
+{
+  "name": "api-documentation",
+  "version": "1.0.0",
+  "description": "API documentation for the project.",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdocs build",
+    "serve": "mkdocs serve",
+    "deploy": "mkdocs gh-deploy"
+  },
+  "dependencies": {
+    "mkdocs": "^1.2.3",
+    "mkdocs-material": "^8.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}

@@ -1,0 +1,3 @@
+- [Login](docs/api/auth/login.md)
+- [Send Code](docs/api/auth/send-code.md)
+- [Get User](docs/api/users/get-user.md)
