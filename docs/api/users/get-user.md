@@ -1,4 +1,4 @@
-# Get User Documentation
+# Get Specific User Account
 
 ## Endpoint
 ```
@@ -9,13 +9,14 @@ GET /users/get_user
 | Parameter    | Type | Required | Description        |
 |-------------|------|----------|--------------------|
 | telegram_id | int  | Yes      | User's Telegram ID |
+| player_id   | int  | Yes      | Mobile Legends Player ID |
 
 ## Response
 
 ### Success (200 OK)
 ```json
 {
-  "message": "User found successfully",
+  "message": "User account found successfully",
   "user": {
     "telegram_id": 123456789,
     "player_id": 987654321,
@@ -32,5 +33,6 @@ GET /users/get_user
 
 ## Example
 ```http
-GET /users/get_user?telegram_id=123456789
+GET /users/get_user?telegram_id=123456789&player_id=987654321
 ```
+
